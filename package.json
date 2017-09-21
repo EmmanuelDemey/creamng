@@ -1,6 +1,6 @@
 {
   "name": "creamng",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular Components",
   "main": "./bundles/creamng.umd.js",
   "module": "./creamng.es5.js",
