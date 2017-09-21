@@ -1,0 +1,83 @@
+/* ----------------------------- RESET --------------------------------------- */
+/* In C3mTHEME */
+/* ----------------------------- DEFAULTS --------------------------------------- */
+/* In C4THEME */
+
+
+.c3m-basket-sum, .c3m-login-data{
+	position: absolute;
+}
+
+
+.lateral-form{
+	float: left;
+	margin: 1.5em 3em 0 0;
+}
+
+.lateral-form p{
+	width: 100%;
+}
+
+#list-products h3{
+	font-size: large;
+}
+
+#list-products img{
+	/*float: left;*/
+	width: 60%;
+}
+
+@media screen and (min-width: 430px) {
+	#list-products .k-product {
+		flex-grow: unset;
+		-webkit-flex-grow: unset;
+	}
+}
+
+/* From previous c4theme
+/* Ratings */
+p.rating {font-size: 0.75em;}
+.rating {
+	padding-left: 65px;
+	margin: 10px 0;
+}
+.rating a:link {color: #777; background: #FFF;}
+.five {
+	color: #000;
+	background: #FFF url(./c4theme/img/bg_ratings.png) 0 -340px no-repeat;
+}
+.four {
+	color: #000;
+	background: #FFF url(./c4theme/img/bg_ratings.png) 0 -262px no-repeat;
+}
+.three {
+	color: #000;
+	background: #FFF url(./c4theme/img/bg_ratings.png) 0 -193px no-repeat;
+}
+.two {
+	color: #000;
+	background: #FFF url(./c4theme/img/bg_ratings.png) 0 -127px no-repeat;
+}
+.one {
+	color: #000;
+	background: #FFF url(./c4theme/img/bg_ratings.png) 0 -60px no-repeat;
+}
+.zero {
+	color: #000;
+	background: #FFF url(./c4theme/img/bg_ratings.png) 0 1px no-repeat;
+}
+
+
+.new{
+	position: absolute;
+	top: 4%;
+	right: 4%;
+}
+
+.c3m-catalog .buyZone .buy{
+	display: inline;
+}
+
+.c3m-catalog .c3m-product{
+	padding-bottom: 1em;
+}
